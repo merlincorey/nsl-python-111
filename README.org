@@ -58,9 +58,11 @@
 
     - http://www.meetup.com/NullSpaceLabs/pages/How_do_I_get_inside_NSL%3F
 
-*** Prepare your computer before the class:
+*** Prepare your computer before the class
 
-    - Install the latest Python 2.7 package from http://python.org/download/ 
+    - Install the latest Python 2.7 package from the [[http://python.org/download/][official python download page]]
+
+      - http://python.org/download/
 
     - Have your editor of choice or IDE ready to go 
 
@@ -68,7 +70,7 @@
 
     If you just make sure to have SSH, then we will provide you a shell with python and some editors.
 
-*** Prepare your brain before the class: 
+*** Prepare your brain before the class
 
     - http://docs.python.org/2/tutorial/ 
     - http://learnpython.org 
