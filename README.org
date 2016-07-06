@@ -1,0 +1,75 @@
+* Null Space Labs
+
+  [[http://032.la][Null Space Labs]] is a [[http://hackerspaces.org/][hacker space]] in Los Angeles, California.
+
+  Just about every Saturday a class is held.
+
+  Check out the [[http://www.meetup.com/NullSpaceLabs/events/][events on MeetUp]] to see what is upcoming.
+
+** Programming 101: Introduction to Python
+
+   [[https://github.com/merlincorey/nsl-python-101-examples][NSL Python 101 Examples]] repository has some examples and information related to the Introduction to Python class.
+
+** Programming 111: Intermediate Python
+
+   Learn all about programming with the easy-to-learn language: Python! 
+
+   This is the second class in a series of programming essentials for anyone who is interested in hacking, programming, and software development. 
+   
+   This class is graciously hosted by NSL Keyholder Merlin! 
+
+*** What will we cover?
+
+    Python language basics will be covered as a refresher for anyone coming from our Python 101 class, and to ensure we're all on the same page before diving into intermediate topics.
+    If you already know basic programming and specifically basic python programming, but want to learn how to actually engineer software in python, this class will be of special interest to you.
+    If you just want to see and experience more of "Why Python is Baller", we'll have some things for you.
+
+    See below for instructions on what you need before the class (Python and a text editor, basically) as well as some introductory material for those who want to get a head start. 
+
+**** Topics we'll review
+
+    - Why Python is BALLER 
+
+    - Types, variables, operators, conditionals, loops, functions 
+
+**** Topics we'll cover in depth
+
+    - Standard Python Functions
+
+    - Standard Python Libraries
+
+    - Generators and comprehensions
+
+    - Modules and packages 
+
+    - Command line arguments and interfaces 
+
+    - Tour of well known powerful libraries
+
+*** What does the class cost?
+
+    This class costs $20 for anyone who isn't a member of Null Space Labs.
+    You can pay at the door in cash or here on Meetup via WePay.
+    Please arrange payment with datagram, mmca, or bvector for direct Paypal/Bitcoin payments.
+
+*** First time visiting NSL?
+
+    Check out the [[http://www.meetup.com/NullSpaceLabs/pages/How_do_I_get_inside_NSL%3F][walkthrough]] for getting into the space:
+
+    - http://www.meetup.com/NullSpaceLabs/pages/How_do_I_get_inside_NSL%3F
+
+*** Prepare your computer before the class:
+
+    - Install the latest Python 2.7 package from http://python.org/download/ 
+
+    - Have your editor of choice or IDE ready to go 
+
+    - OR just bring an SSH client (Mac, Linux already has it, use PuTTY on Windows) 
+
+    If you just make sure to have SSH, then we will provide you a shell with python and some editors.
+
+*** Prepare your brain before the class: 
+
+    - http://docs.python.org/2/tutorial/ 
+    - http://learnpython.org 
+    - http://www.codecademy.com/tracks/python
