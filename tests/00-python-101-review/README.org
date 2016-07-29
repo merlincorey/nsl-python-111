@@ -2,3 +2,10 @@
 
   To run tests:
   : $ python test.py
+
+  Initially they should fail.
+  To get started fixing them, make a copy of `review.py` named `review_local.py`.
+  In the shell:
+  : $ cp review.py review_local.py
+
+  After that, make changes to the functions in `review_local.py` and test with `test.py` until all tests pass.
