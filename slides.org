@@ -18,6 +18,7 @@
    - Python provides abstractions for terse expressions
    - Python is portable and has decent C integration
    - Python has packages for [[https://xkcd.com/353/]["everything"]]
+   - Python [[http://norvig.com/sudoku.html][solves problems]] definitively and succinctly
 
 ** Types, variables, operators, conditionals, loops, functions
 
