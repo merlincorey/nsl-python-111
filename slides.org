@@ -2,12 +2,15 @@
 
   We're still using and focusing on Python 2.7 rather than Python 3.x.
   Python 2.7 provides some of the features of python 3.x but still has better library and platform support than 3, even today.
+  Python 2.7 is closer and feels more familiar to C and C++ programmers, which many of us are.
 
-  That said, [[./its-happening.gif][its's happening]] as measured by the [[http://py3readiness.org/][Python 3 Readiness]] site, which at time of writing has 339 of 360 most popular packages on the [[http://pypi.python.org][Cheese Shop]] ready for Python 3.
+  That said, [[./images/its-happening.gif][its's happening]] as measured by the [[http://py3readiness.org/][Python 3 Readiness]] site, which at time of writing has 339 of 360 most popular packages on the [[http://pypi.python.org][Cheese Shop]] ready for Python 3.
   The main differences have to do with the handling of the print and Unicode.
   Print is a function in Python 3, as it should be, and a statement in Python 2, as it had to be.
   Python 2 has some pitfalls and quirks due to being ASCII first, whilst Python 3 is Unicode first.
   This, of course, has taken forever and introduced breaking changes - the [[http://python-notes.curiousefficiency.org/en/latest/python3/questions_and_answers.html][core team is aware]].
+
+  For a new, serious project, you should probably use Python 3 unless you have a specific reason not to.
 
 ** Why Python is BALLER
 
