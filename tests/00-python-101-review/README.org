@@ -1,0 +1,4 @@
+* 00) Python 101 Review
+
+  To run tests:
+  : $ python test.py
