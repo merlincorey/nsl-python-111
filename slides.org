@@ -29,7 +29,16 @@
 
 * Python 101 Review - Variables, literals, and assignment
 
-  - Variables are names assigned to values
+  - Literals are literal values such as the number `1` or the list `[3, 2, 1]`
+    : >>> 9
+    : 9
+    : >>> 'nine'
+    : 'nine'
+    : >>> [1, 1, 1, 2, 2, 2, 3, 3, 3]
+    : [1, 1, 1, 2, 2, 2, 3, 3, 3]
+    : >>> {1, 1, 1, 2, 2, 2, 3, 3, 3}
+    : set([1, 2, 3])
+  - Variables are names assigned to values (literal or dynamic)
   - `=` is the assignment operator for an [[https://docs.python.org/2/reference/simple_stmts.html#assignment-statements][assignment statement]]
     : >>> apples = 10
   - Variables have types determined by their values at runtime
