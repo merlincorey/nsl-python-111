@@ -38,7 +38,9 @@
   - Context manager types :: context management protocol defined in [[https://www.python.org/dev/peps/pep-0343/][PEP-0343]]
   - Other types :: Modules, classes, functions, methods, code, type, null, ellipsis, NotImplemented
 
-* Python 101 Review - Variables, literals, and assignment
+* Python 101 Review - Variables and literals
+
+** Literals
 
   - Literals are literal values such as the number `1` or the list `[3, 2, 1]`
     : >>> 9
@@ -49,6 +51,9 @@
     : [1, 1, 1, 2, 2, 2, 3, 3, 3]
     : >>> {1, 1, 1, 2, 2, 2, 3, 3, 3}
     : set([1, 2, 3])
+
+** Variables
+
   - Variables are names assigned to values (literal or dynamic)
   - `=` is the assignment operator for an [[https://docs.python.org/2/reference/simple_stmts.html#assignment-statements][assignment statement]]
     : >>> apples = 10
