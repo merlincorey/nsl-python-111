@@ -1,17 +1,24 @@
 * Python 101 Review
 
-  We're still using and focusing on Python 2.7
+  We're still using and focusing on Python 2.7 rather than Python 3.x.
+  Python 2.7 provides some of the features of python 3.x but still has better library and platform support than 3, even today.
+
+  That said, [[./its-happening.gif][its's happening]] as measured by the [[http://py3readiness.org/][Python 3 Readiness]] site, which at time of writing has 339 of 360 most popular packages on the [[http://pypi.python.org][Cheese Shop]] ready for Python 3.
+  The main differences have to do with the handling of the print and Unicode.
+  Print is a function in Python 3, as it should be, and a statement in Python 2, as it had to be.
+  Python 2 has some pitfalls and quirks due to being ASCII first, whilst Python 3 is Unicode first.
+  This, of course, has taken forever and introduced breaking changes - the [[http://python-notes.curiousefficiency.org/en/latest/python3/questions_and_answers.html][core team is aware]].
 
 ** Why Python is BALLER
 
    - Python is generally very readable and regular - this makes code maintainable and transferable.
    - Python provides abstractions for terse expressions
    - Python is portable and has decent C integration
-   - Python has packages for "everything"
+   - Python has packages for [[https://xkcd.com/353/]["everything"]]
 
 ** Types, variables, operators, conditionals, loops, functions
 
-   - Python is [[http://c2.com/cgi/wiki?DynamicTyping][dynamically typed]] with twenty plus [[https://docs.python.org/2/library/stdtypes.html][built-in types]]
+   - Python is [[http://c2.com/cgi/wiki?DynamicTyping][dynamically typed]] with over twenty [[https://docs.python.org/2/library/stdtypes.html][built-in types]]
    - Python's grammar supports twenty one infix [[https://docs.python.org/2/reference/lexical_analysis.html#operators][operators]]
 
 * Python 101 Review - Types
@@ -60,6 +67,10 @@
 * Python 101 Review - Operators and Expressions
 
   - PEP 308 :: Conditional Expressions
+
+* Python 101 Review - Control flow statements and loops
+
+  
 
 * Python 101 Review - Functions
 
