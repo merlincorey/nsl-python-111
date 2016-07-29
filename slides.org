@@ -1,6 +1,6 @@
 * Python 101 Review
 
-We're still using and focusing on Python 2.7
+  We're still using and focusing on Python 2.7
 
 ** Why Python is BALLER
 
@@ -27,7 +27,28 @@ We're still using and focusing on Python 2.7
   - Context manager types :: context management protocol defined in [[https://www.python.org/dev/peps/pep-0343/][PEP-0343]]
   - Other types :: Modules, classes, functions, methods, code, type, null, ellipsis, NotImplemented
 
-* Python 101 Review - Expressions
+* Python 101 Review - Variables, literals, and assignment
+
+  - Variables are names assigned to values
+  - `=` is the assignment operator for an [[https://docs.python.org/2/reference/simple_stmts.html#assignment-statements][assignment statement]]
+    : >>> apples = 10
+  - Variables have types determined by their values at runtime
+    : >>> int == type(apples)
+    : True
+  - Variables may change value and type throughout a program's run time
+    : >>> apples = 'red'
+    : >>> int == type(apples)
+    : False
+  - Variables may be unpacked from a sequence type or iterator
+    : >>> count, color, cost_per_pound = (10, 'red', 6.69)
+    : >>> count
+    : 10
+    : >>> color
+    : 'red'
+    : >>> cost_per_pound
+    : 6.69
+
+* Python 101 Review - Operators and Expressions
 
   - PEP 308 :: Conditional Expressions
 
