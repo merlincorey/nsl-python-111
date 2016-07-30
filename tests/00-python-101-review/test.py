@@ -8,11 +8,13 @@ import review
 
 
 def test_factorial():
-    assert 0 != review.factorial(1)
     assert int == type(review.factorial(1))
+    assert 0 != review.factorial(1)
     assert 6 == review.factorial(3)
     assert 362880 == review.factorial(9)
     assert 80658175170943878571660636856403766975289505440883277824000000000000L == review.factorial(52)
+    assert None == review.factorial(-1)
+    assert 1 == review.factorial(0)
     
 
 def main():
