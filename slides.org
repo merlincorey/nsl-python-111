@@ -12,7 +12,7 @@
 
   For a new, serious project, you should probably use Python 3 unless you have a specific reason not to.
 
-** Why Python is BALLER
+* Why Python is BALLER
 
    - Python is generally very readable and regular - this makes code maintainable and transferable.
    - Python provides abstractions for terse expressions
@@ -20,7 +20,7 @@
    - Python has packages for [[https://xkcd.com/353/]["everything"]]
    - Python [[http://norvig.com/sudoku.html][solves problems]] definitively and succinctly
 
-** Types, variables, operators, conditionals, loops, functions
+* Types, variables, operators, conditionals, loops, functions
 
    - Python is [[http://c2.com/cgi/wiki?DynamicTyping][dynamically typed]] with over twenty [[https://docs.python.org/2/library/stdtypes.html][built-in types]]
    - Python's grammar supports twenty one infix [[https://docs.python.org/2/reference/lexical_analysis.html#operators][operators]]
@@ -75,32 +75,53 @@
 
 * Python 101 Review - Operators and Expressions
 
-  - PEP 308 :: Conditional Expressions
+  - [[https://docs.python.org/2/reference/expressions.html][Expressions]] documentation
+  - Arithmetic
+  - Comparison
+  - Conditionals defined in [[https://www.python.org/dev/peps/pep-0308/][PEP 308]]
+  - [[https://docs.python.org/2/reference/expressions.html#lambda][Lambdas]]
 
 * Python 101 Review - Control flow statements and loops
-
   
+  - [[https://docs.python.org/2/reference/compound_stmts.html][Compound Statements]]
+  - if
+  - while
+  - for
+  - try
+  - with
 
 * Python 101 Review - Functions
 
+  - [[https://docs.python.org/2/reference/compound_stmts.html#function-definitions][Function]] documentation
   - PEP-227 :: scope and closures
 
 * Standard Python Functions
 
+  - [[https://docs.python.org/2/library/functions.html][Builtin Functions]]
+
 * Standard Python Libraries
+
+  - [[https://docs.python.org/2/library/][Python Standard Library]]
 
 * Generators and comprehensions
 
-PEP-
+  - 
 
 * Modules and packages 
 
-PEP-
-PEP-440 - Versioning restrictions
+  - PEP-440 :: Versioning restrictions
 
 * Command line arguments and interfaces 
 
+  - Optparse
+  - Argparse
+
 * Tour of well known powerful libraries
 
-PEP-8
-PyFlakes
+  - PEP-8
+  - PyFlakes
+  - PyTest
+  - Click
+  - Flask
+  - Requests
+  - BeautifulSoup
